@@ -1,0 +1,27 @@
+head and tail are not nodes, they are variables that are pointers that can point to nodes
+
+big o - time complexity - the number of operations, not time
+space complexity - the amount of memory that a code uses. A faster code can use more memory
+drop constants and non-dominants
+
+O(n) - proportional
+O(n^2) - loop within a loop
+O(1) - constant time
+O(log n)  - divide and conquer
+
+O(nlog n) - as efficient as possible for most sorting algorthms, when sorting other than numbers
+
+array push, array pop - O(1) operations
+array shift, array unshift - needs reindexing of items inside array - O(n)
+array splice - O(n)
+search by value - O(n)
+search by index - O(1)
+
+classes
+pointers
+
+garbage collection, js will clean up values that are not assigned to variables anymore
+
+----------
+linked lists - dont have indexes like arrays
+we cant go backwards in a linked list, we have to iterate from beginning
